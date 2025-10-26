@@ -40,7 +40,7 @@ const Hero = () => {
 
 function Rig() {
   return useFrame((state, delta) => {
-    easing.dump3(
+    easing.damp3(
       state.camera.position,
       [state.mouse.x / 10, 1 + state.mouse.y / 10, 3],
       0.5,
