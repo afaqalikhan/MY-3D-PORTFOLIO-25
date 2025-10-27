@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import menuIcon from "../assets/menu.svg";
 import closeIcon from "../assets/close.svg";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 function Navigation() {
   return (

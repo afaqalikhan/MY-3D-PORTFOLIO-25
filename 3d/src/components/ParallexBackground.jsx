@@ -1,4 +1,4 @@
-import { motion, useScroll, useSpring, useTransform } from "motion/react";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import sky from "../assets/sky.jpg";
 import mountain from "../assets/mountain-3.png";
 import planet from "../assets/planets.png";
